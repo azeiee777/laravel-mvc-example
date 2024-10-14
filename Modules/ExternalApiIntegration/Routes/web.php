@@ -11,6 +11,12 @@
 |
 */
 
-Route::prefix('externalapiintegration')->group(function() {
+use Illuminate\Support\Facades\Route;
+
+Route::prefix('externalApiIntegration')->group(function() {
     Route::get('/', 'ExternalApiIntegrationController@index');
+
+    Route::prefix('/apiCall')->group(function() {
+        Route::get('/index', 'HandleExtrnalApiController@index');
+    });
 });
