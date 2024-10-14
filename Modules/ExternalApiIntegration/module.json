@@ -1,0 +1,13 @@
+{
+    "name": "ExternalApiIntegration",
+    "alias": "externalapiintegration",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\ExternalApiIntegration\\Providers\\ExternalApiIntegrationServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
