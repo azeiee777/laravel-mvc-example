@@ -1,0 +1,13 @@
+{
+    "name": "DemoModule",
+    "alias": "demomodule",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\DemoModule\\Providers\\DemoModuleServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
